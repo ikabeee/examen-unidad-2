@@ -10,7 +10,6 @@ public class PlayerMouvement : MonoBehaviour
     
     private Rigidbody2D body;
     private Vector2 playerDirection;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         body = GetComponent<Rigidbody2D>();
